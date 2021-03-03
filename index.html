@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Documento sin título</title>
+<link href="cssfinal.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h1>GESTION DE LA BASE DE DATOS DE TUS JUEGOS</h1>
+<form id="form1" name="form1" method="post" action="creacion.php">
+  <p>
+    <input name="BBDD" type="checkbox" id="BBDD" checked="checked" />
+    <label for="BBDD">Crear Base de Datos</label>
+  </p>
+  <p>
+    <input name="tablas" type="checkbox" id="tablas" />
+    <label for="tablas">Crear Tablas</label>
+  </p>
+  <p>
+    <input type="submit" name="enviar" id="enviar" value="Enviar" />
+  </p>
+</form>
+
+<form id="form1" name="form1" method="post" action="inde.php">
+  <p>
+    <label for="plat"></label>
+    <select name="plat" id="plat">
+      <option value="play">Playstation</option>
+      <option value="xbox">XBOX</option>
+      <option value="switch">Nintendo Switch</option>
+    </select>
+  </p>
+  <p>
+    <input type="submit" name="enviar" id="enviar" value="Enviar" />
+  </p>
+</form>
+
+<form id="form1" name="form1" method="post" action="inde1.php">
+  <p>
+    <input type="radio" name="radio" id="insertar" value="insertar" />
+    <label for="insertar">Insertar datos en la tabla</label>
+  </p>
+  <p>
+    <input type="radio" name="radio" id="modifi" value="modifi" />
+    <label for="modifi">Modificar datos de la tabla</label>
+  </p>
+  <p>
+    <input type="radio" name="radio" id="borrar" value="borrar" />
+    <label for="borrar">Borrar datos de la tabla</label>
+  </p>
+  <p>
+    <input type="submit" name="enviar" id="enviar" value="Enviar" />
+  </p>
+</form>
+</body>
+</html>
